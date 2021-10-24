@@ -27,6 +27,7 @@ nav a {
   padding: 1rem;
   font-family: arial black;
   font-size: 15px;
+  border-radius: 30px;
 }
 
 .text-button {
