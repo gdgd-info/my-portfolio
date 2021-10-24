@@ -81,13 +81,13 @@ nav a:hover {
 #text {
   display: flex;
   justify-content: center;
-  padding: 50px 0px;
+  padding: 55px 0px;
 }
 
 #text2 {
   display: flex;
   justify-content: center;
-  padding: 50px 0px;
+  padding: 55px 0px;
 }
 
 .animation span {
