@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
+
+body {
+  background-color: #e1bac4; /*ページ全体の背景色*/
+  color: #665459;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #badee1;
+  box-shadow: 4px 4px 4px;
+}
+
+nav a {
+  display: inline-block;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #665459;
+}
+
+.button {
+  padding: 1rem;
+  font-family: arial black;
+  font-size: 15px;
+}
+
+.text-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #badee1;
+  height: 4rem;
+  font-size: 2rem;
+  box-shadow: 4px 4px 4px;
+}
+.text-button:hover {
+  background-color: #d8e1ba;
+}
+
+#selfintroduction {
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #d8e1ba;
+}
+
+/* name */
+#name {
+  margin: 100px;
+  background-color: #badee1;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+#name:hover {
+  background-color: #d8e1ba;
+}
+
+#name-japanese {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+#name-english {
+  display: flex;
+  justify-content: center;
+
+  font-size: 40px;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+#text2 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.animation span {
+  transition-property: opacity;
+  opacity: 0;
+}
+
+.played span {
+  opacity: 1;
+}
